@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAGAR BHUMKAR | Senior Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/resume.css">
+</head>
+
+<body>
+    <div class="resume-container">
+        <div class="left-panel">
+            <div class="profile-section">
+                <div class="photo-container">
+                    <div class="photo-frame">
+                        <img src="images/bg_1.png" alt="Sagar Bhumkar" class="profile-photo">
+                    </div>
+                </div>
+                <h1 class="name">SAGAR BHUMKAR</h1>
+                <div class="title">Senior Full Stack Developer</div>
+            </div>
+
+            <div class="contact-section">
+                <div class="section-title">
+                    <i class="fas fa-address-card"></i> Contact
+                </div>
+                <div class="info-card contact-card">
+                    <div class="contact-item">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <div class="contact-text">
+                            <div class="contact-label">Phone</div>
+                            <a class="contact-value" href="tel:+917385039963">+91 73850 39963</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <div class="contact-text">
+                            <div class="contact-label">Email</div>
+                            <a class="contact-value" href="mailto:sagar.bhumkar2212@gmail.com">sagar.bhumkar2212@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <div class="contact-text">
+                            <div class="contact-label">Location</div>
+                            <div class="contact-value">Pune, Maharashtra</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-briefcase contact-icon"></i>
+                        <div class="contact-text">
+                            <div class="contact-label">Experience</div>
+                            <div class="contact-value" id="experience-years"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-section">
+                <div class="section-title">
+                    <i class="fas fa-code"></i> Technical Expertise
+                </div>
+                <div class="info-card">
+                    <div class="skill-progress-grid">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">.NET</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Angular</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">React</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">SQL Server</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="qr-section">
+                <div class="qr-title">
+                    <i class="fas fa-qrcode"></i> Digital Portfolio
+                </div>
+                <div class="qr-code-container">
+                    <img src="images/QR.png" alt="Portfolio QR Code" class="qr-code">
+                </div>
+                <div class="qr-text">Scan to explore complete portfolio with detailed case studies</div>
+                <a class="portfolio-link" href="https://sagarbhumkar.github.io/SagarBhumkar-Portfolio/" target="_blank"
+                    rel="noopener">
+                    <i class="fas fa-external-link-alt"></i> View Portfolio
+                </a>
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <div class="summary-section">
+                <h1 class="main-header">Professional Profile</h1>
+                <p class="content-text">
+                    Senior Full Stack Developer with <span id="exp-years-dynamic"></span> of experience architecting and
+                    implementing
+                    enterprise-grade applications. Specialized in .NET ecosystem and modern JavaScript
+                    frameworks with expertise in financial systems, retail management platforms, and
+                    cloud-native solutions. Proven track record of delivering scalable, high-performance
+                    software solutions for global enterprises.
+                </p>
+
+                <div class="mini-stats-grid">
+                    <div class="mini-stat-card">
+                        <div class="mini-stat-value" id="exp-years-value"></div>
+                        <div class="mini-stat-label">Years Experience</div>
+                    </div>
+                    <div class="mini-stat-card">
+                        <div class="mini-stat-value">12+</div>
+                        <div class="mini-stat-label">Projects</div>
+                    </div>
+                    <div class="mini-stat-card">
+                        <div class="mini-stat-value">3</div>
+                        <div class="mini-stat-label">Patents</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-section">
+                <div class="section-header">
+                    <i class="fas fa-briefcase"></i> Professional Experience
+                </div>
+
+                <div class="experience-cards">
+                    <div class="experience-card">
+                        <div class="company-header">
+                            <div class="company-name">
+                                <i class="fas fa-building"></i> Quatrro Business Solutions
+                            </div>
+                            <div class="duration">July 2024 - Present</div>
+                        </div>
+                        <div class="designation">Senior Software Developer</div>
+                        <p class="content-text" style="margin-bottom: 0;">
+                            Leading development of enterprise financial systems and retail management platforms.
+                            Specializing in ERP integration, real-time monitoring solutions, and scalable
+                            microservices architecture.
+                        </p>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="company-header">
+                            <div class="company-name">
+                                <i class="fas fa-building"></i> Softra System Pvt. Ltd
+                            </div>
+                            <div class="duration">18 July 2022 - 15 July 2024</div>
+                        </div>
+                        <div class="designation">Software Developer</div>
+                        <p class="content-text" style="margin-bottom: 0;">
+                            Developed comprehensive energy retail management systems and financial platforms.
+                            Implemented customer lifecycle management, billing solutions, and real-time data
+                            processing systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-section">
+                <div class="section-header">
+                    <i class="fas fa-graduation-cap"></i> Education
+                </div>
+                <div class="education-stack">
+                    <div class="education-card">
+                        <div class="education-info">
+                            <div class="education-degree">Bachelor of Technology</div>
+                            <div class="education-university">Electronics & Telecommunication Engineering</div>
+                            <div class="education-university"
+                                style="margin-top: 4px; color: var(--dark-gray); font-size: 13px;">
+                                <i class="fas fa-university" style="color: var(--medium-gray); margin-right: 6px;"></i>
+                                Punyashlok Ahilyadevi Holkar Solapur University
+                            </div>
+                        </div>
+                        <div class="education-year">2023</div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-info">
+                            <div class="education-degree">Polytechnic</div>
+                            <div class="education-university">Electronics & Telecommunication Engineering</div>
+                            <div class="education-university"
+                                style="margin-top: 4px; color: var(--dark-gray); font-size: 13px;">
+                                <i class="fas fa-university" style="color: var(--medium-gray); margin-right: 6px;"></i>
+                                Maharashtra State Board of Technical Education
+                            </div>
+                        </div>
+                        <div class="education-year">2020</div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <div class="footer-info">
+                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+                        <i class="fas fa-language" style="color: var(--medium-gray);"></i>
+                        <span><strong>Languages:</strong> English, Hindi, Marathi</span>
+                    </div>
+                </div>
+                <div class="signature">
+                    <div class="signature-name">Sagar S. Bhumkar</div>
+                    <div class="signature-date" id="current-date"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/resume.js" defer></script>
+</body>
+
+</html>
